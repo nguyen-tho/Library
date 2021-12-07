@@ -18,8 +18,29 @@
 
 	<!--Custom styles-->
 	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand col-form-label text-light" href="index.php">Online Library</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Contact">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#About">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success" href="login.php">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
@@ -56,7 +77,7 @@
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="register.html">Sign Up</a>
+					Don't have an account?<a href="register.php">Sign Up</a>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a href="#">Forgot your password?</a>

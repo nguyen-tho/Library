@@ -1,19 +1,27 @@
-ul{
-    list-style-type: none;
-    margin: 1;
-    padding: 1;
-    overflow: hidden;
-    background-color: black
+html body{
+  background-image: url('https://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  }
+  
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 1;
+  overflow: hidden;
+
 }
 
-li{
-    float: left;
+li {
+  float: left;
 }
 
-li a{
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 16px 18px;
-    text-decoration: none;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
 }
