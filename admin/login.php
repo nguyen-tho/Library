@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Online Library|Sign in</title>
+	<title>Online Library|Admin Login</title>
    <!--Made with love by Mutiullah Samim -->
    <!--Reference source at https://bootsnipp.com/snippets/vl4R7-->
    
@@ -17,11 +17,11 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<?php include 'include/header.php'; ?>
+<?php include '../include/header.php'; ?>
 
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
@@ -52,13 +52,6 @@
 					</div>
 				</form>
 			</div>
-			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="register.php">Sign Up</a>
-				</div>
-				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
-				</div>
 			</div>
 		</div>
 	</div>

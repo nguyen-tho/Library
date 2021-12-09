@@ -25,3 +25,7 @@ li a {
   padding: 16px 18px;
   text-decoration: none;
 }
+.nav-right {
+  
+  float: right;
+}
