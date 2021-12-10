@@ -3,6 +3,7 @@
     <head>
        
     </head>
+    
     <body>
         <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -21,6 +22,7 @@
                     <li class="nav-right">
                         <a class="btn btn-success" href="login.php">Login</a>
                     </li>
+                    
                 </ul>
             </div>
         </nav>

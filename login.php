@@ -20,7 +20,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<?php include 'include/header.php'; ?>
+
+<?php    
+include 'include/header.php';
+                session_start();
+                if(isset($_SESSION['message']))
+                {  ?>
+                   <div class="alert alert-info text-center">
+                   <?php echo $_SESSION['message']; ?>
+                   </div> 
+                   <?php
+                   unset ($_SESSION['message']);
+                }   ?>
 
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
@@ -34,14 +45,14 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="username">
+						<input type="text" name="username" class="form-control" placeholder="username">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="password">
+						<input type="password" name="password" class="form-control" placeholder="password">
 					</div>
 					<div class="row align-items-center remember">
 						<input type="checkbox">Remember Me
