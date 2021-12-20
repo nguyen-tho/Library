@@ -12,9 +12,9 @@
 
     </head>
     <body>
+    
         <!--Navigation bar-->
-    <?php include 'include/header.php'; ?>
-        
+        <?php require_once('include/header.php'); ?>
         <!--Search bar-->
         <div class="container body-content">
             <div class="container">
@@ -67,5 +67,6 @@
                 </div>
             </div>  
         </div>
+
     </body>
 </html>

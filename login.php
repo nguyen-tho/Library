@@ -21,17 +21,7 @@
 </head>
 <body>
 
-<?php    
-include 'include/header.php';
-                session_start();
-                if(isset($_SESSION['message']))
-                {  ?>
-                   <div class="alert alert-info text-center">
-                   <?php echo $_SESSION['message']; ?>
-                   </div> 
-                   <?php
-                   unset ($_SESSION['message']);
-                }   ?>
+<?php require_once('include/header.php'); ?>
 
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
